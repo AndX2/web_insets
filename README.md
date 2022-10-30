@@ -4,8 +4,13 @@
 ***
 WebInsets gives values of browser insets.
 
-<img src="doc/before.png" alt="before" width="256"/>
-<img src="doc/after.png" alt="after" width="256"/>
+* before
+
+    <img src="public/before.png" alt="before" width="256"/>
+
+* after
+
+    <img src="public/after.png" alt="after" width="256"/>
 
 Has two modes:
 * "on demand" - get actualy insets on build method

@@ -29,9 +29,7 @@
 .packages
 .pub-cache/
 .pub/
-/build/ios
-*.dill
-*.stamp
+/build/
 
 # Web related
 
