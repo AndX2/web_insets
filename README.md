@@ -12,6 +12,8 @@ WebInsets gives values of browser insets.
 
     <img src="public/after.png" alt="after" width="256"/>
 
+You can see demo [here](https://andx2.github.io/web_insets). 
+
 Has two modes:
 * "on demand" - get actualy insets on build method
 * listening insets changes by a subscription
@@ -32,7 +34,7 @@ Uses this NPM package https://www.npmjs.com/package/safe-area-insets (version 1.
     ```
     or 
 
-    * <p><a href="https://github.com/AndX2/web_insets.git" download>Download</a> bundle and copy it to your web files
+    * <p><a href="https://github.com/AndX2/web_insets/blob/master/js/index.min.js.zip" download>Download</a> bundle and copy it to your web files
     ```html
     <!-- /web/index.html -->
     <head>
