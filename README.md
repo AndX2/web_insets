@@ -12,19 +12,19 @@ WebInsets gives values of browser insets.
 
     <img src="public/after.png" alt="after" width="256"/>
 
-You can see demo [here](https://andx2.github.io/web_insets). 
+You can see the demo [here](https://andx2.github.io/web_insets). 
 
 Has two modes:
-* "on demand" - get actualy insets on build method
+* "on demand" - get actual insets on build method
 * listening insets changes by a subscription
 
-It resolves this issue https://github.com/flutter/flutter/issues/84833. 
+It solves this issue https://github.com/flutter/flutter/issues/84833. 
 
 Uses this NPM package https://www.npmjs.com/package/safe-area-insets (version 1.4.1)
 
 ## Getting started
 ***
-1. Connect minified js bundle to index.html your project one of three ways:
+1. Connect minified js bundle to index.html of your project one of three ways:
     * Just using CDN source
     ```html
     <!-- /web/index.html -->
@@ -46,7 +46,7 @@ Uses this NPM package https://www.npmjs.com/package/safe-area-insets (version 1.
 
     * Clone NPM [repository](https://github.com/zhetengbiji/safeAreaInsets.git), build it yourself and follow way #2 
 
-2. Call the viewport attribute setter once before using the package first time. Main method for example.
+2. Call the viewport attribute setter once before using the package first time. Here is the main method, for example.
     ```dart
     // lib/main.dart
 
@@ -58,7 +58,7 @@ Uses this NPM package https://www.npmjs.com/package/safe-area-insets (version 1.
             }
     ```
     ### Notice:
-    Package has implementation for web and stub getters for other platforms. You can call any method without platform check. Stub will do nothing or return zero value for getter if the platform is not web. 
+    The package is implement in web and stub getters for other platforms. You can call any method without platform check. Stub will do nothing or return zero value for getter if the platform is not web. 
 
 ## Usage
 ***
